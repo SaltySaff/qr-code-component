@@ -1,8 +1,10 @@
+import qrcode from "../images/image-qr-code.png"
+
 function QrCode() {
   return (
     <main>
       <section className="qr-code-container">
-        <img src="../images/image-qr-code.png" alt="qr code" />
+        <img src={qrcode} alt="qr code" />
       </section>
       <section className="text-container">
         <h1>Improve your front-end skills by building projects</h1>
